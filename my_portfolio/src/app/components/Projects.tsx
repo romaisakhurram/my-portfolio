@@ -6,6 +6,7 @@ import dynamicResume from "@/app/Images/dynamic resume.jpg"
 import Website from "@/app/Images/Website.jpg"
 import form from "@/app/Images/Form.jpg"
 import  BlogWebsite from "@/app/Images/BlogWebsite.jpg"
+import style from "@/app/CSS/Project.module.css"
 
 type Idata ={
     id :number
@@ -68,23 +69,23 @@ const data : Idata[] = [
 
 export default function Projects ()  {      
     return (
-        <div  id="Projects" className="flex flex-col items-center space-y-8 " data-aos="zoom-in-down">
-            <div className="text-[50px] items-center"><u>Projects</u></div>
+        <div  id="Projects" className={style.ProjectContainer} data-aos="zoom-in-down">
+            <div className={style.ProjectHeading}> Projects </div>
             
-            <div className="grid gap-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:gap-10">
+            <div className={style.ProjectChild}>
                {data.map ((Idata) => (
-                    <div  key={Idata.id} className='border border-accent w-[300px] sm:w-[350px] flex flex-col items-center space-y-4 p-4 rounded-lg shadow-lg'>
-                       <Image className="w-[300px] sm:w-[350px] h-auto"
+                    <div  key={Idata.id} className={style.container}>
+                       <Image className={style.ProjectImage}
                          src={Idata.Image}
                          alt ={Idata.title}
                          width={350}
                          height={350}
                         />
 
-                       <div className="text-2xl font-extraligh">{Idata.title}</div>
+                       <div className={style.title}>{Idata.title}</div>
                        <div>{Idata.desc}</div>
-                        <div className="tags flex space-x-2">{Idata.tags.map((tag , index) =>(
-                          <span key={index} className="bg-blue-200 px-2 rounded text-sm"> {tag}</span>
+                        <div className={style.tags}>{Idata.tags.map((tag , index) =>(
+                          <span key={index} className={style.tagList}> {tag}</span>
                           ))}
                         </div>
                     </div>

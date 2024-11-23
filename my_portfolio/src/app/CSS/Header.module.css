@@ -1,0 +1,21 @@
+.HeaderContainer{
+    padding: 20px;
+}
+
+.HeaderChild{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.HeaderLogo{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.HeaderList{
+    font-size: 20px;
+    gap : 80px;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

@@ -1,0 +1,26 @@
+
+.HeroContainer{
+    background-image: url(../Images/profile.png);
+    background-size: cover ;
+    width: 450px;
+    height: 400px;
+    margin: 6%;
+}
+
+.HeroChild{
+    display: grid;
+    grid-column: 20px;
+    height: calc(100vh- 60px);
+}
+
+.HerGrandChild{
+    display :block
+}
+
+.MainHeading{
+    font-size: 80px;
+    font-weight: bold;
+    margin-left: 150%;
+    justify-items: left;
+    align-content: center;
+}

@@ -72,6 +72,7 @@ export default function Projects ()  {
             <div className="text-[50px] items-center"><u>Projects</u></div>
             
             <div className="grid gap-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:gap-10">
+
                {data.map ((Idata) => (
                     <div  key={Idata.id} className='border border-accent w-[300px] sm:w-[350px] flex flex-col items-center space-y-4 p-4 rounded-lg shadow-lg'>
                        <Image className="w-[300px] sm:w-[350px] h-auto"
@@ -81,7 +82,7 @@ export default function Projects ()  {
                          height={350}
                         />
 
-                       <div className="text-2xl font-extraligh">{Idata.title}</div>
+                       <div className="text-2xl font-extralight">{Idata.title}</div>
                        <div>{Idata.desc}</div>
                         <div className="tags flex space-x-2">{Idata.tags.map((tag , index) =>(
                           <span key={index} className="bg-blue-200 px-2 rounded text-sm"> {tag}</span>

@@ -1,0 +1,16 @@
+.AboutContainer{
+    padding: 128px;
+    width: 100%;
+}
+
+.AboutHeading{
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.aboutDesc{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(122, 120, 120);
+}

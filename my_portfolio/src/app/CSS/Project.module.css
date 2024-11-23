@@ -1,0 +1,57 @@
+.ProjectContainer{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.ProjectHeading{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+}
+
+.ProjectChild{
+    width: 1300px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.container{
+    border: 1px solid;
+    border-color: green;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.5rem;
+    padding: 20px;
+    transition-duration: 0.5s;
+}
+
+.ProjectImage{
+    width: 400px;
+    height: auto;
+}
+
+.title{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 200;
+}
+
+.tags{
+    display: flex;
+
+}
+
+.tagList{
+    background-color:rgb(191 219 254) ;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-radius: 0.25rem;
+    margin-left: 20px;
+    margin-top: 20px;
+}

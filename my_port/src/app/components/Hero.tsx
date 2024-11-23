@@ -1,6 +1,5 @@
 import Header from "@/app/components/Header"
 
-
 export default function Hero () {
     return (
        <div id="hero" className='min-h-screen bg-no-repeat bg-cover'

@@ -1,8 +1,8 @@
-import { FaRegCopyright } from "react-icons/fa";
+import style from "@/app/CSS/Footer.module.css"
 
 export default  function Footer () {
     return(
-       <div className="mt-16 py-6 text-center bg-accent">
+       <div className={style.Footer}>
               <h2>&copy; All Right Reserved</h2>
        </div>
     )

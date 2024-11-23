@@ -15,10 +15,6 @@
   } 
 }
 
-#hero{
-  background-image: url(./Images/profile.jpg);
-}
-
 #button:hover{
   background-color: #000;
   color: #fff;

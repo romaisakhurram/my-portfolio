@@ -1,0 +1,36 @@
+.SkillContainer{
+    padding: 128px;
+    width: 100%;
+}
+
+.SkillChild{
+    align-items: center;
+    gap: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.SkillHeading{
+    font-size: 40px;
+}
+
+.SkillDesc{
+  padding-top: 8px;
+  color: gray;
+
+}
+
+.Skills{
+  font-size: 30px;
+  display : grid;
+  grid-column: 20px;
+  color: green;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.SkillList{
+  margin-top: 8px;
+  margin-bottom: 8px;
+}

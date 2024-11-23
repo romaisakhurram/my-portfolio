@@ -1,0 +1,72 @@
+.ContactContainer{
+    padding: 128px;
+    width: 100%
+}
+
+.Contactchild{
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.ContactGrandChild{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.ContactHeading{
+    font-size: 40px;
+}
+
+.ContactDesc{
+    font-size: 20px;
+    padding-top: 2px;
+    color: rgb(107, 107, 107);
+}
+
+.Form{
+    margin-bottom: 20px;
+    margin-left: 50%;
+    padding: 20px;
+}
+
+.email , .Number {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.Name , .Email {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.Message{
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;  
+}
+
+.inputName , .inputEmail{
+    height: 40px;
+    width: 600px;
+    background-color: transparent;
+    border: 1px solid;
+    border-color: green;
+}
+
+.inputMessage{
+    width: 600px;
+    background-color: transparent;
+    border: 1px solid;
+    border-color: green;
+}
+
+
+.ContactButton{
+    background: green;
+    width: 20%;
+    height: 30px;
+    color: white;
+}
