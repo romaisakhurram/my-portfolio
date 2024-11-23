@@ -3,7 +3,7 @@ import Header from "@/app/components/Header"
 export default function Hero () {
     return (
        <div id="hero" className='min-h-screen bg-no-repeat bg-cover'
-          style={{ backgroundSize:"40%" , backgroundPosition:"left 100px top 150px"}} >
+          style={{ backgroundSize:"40%" , backgroundPosition:"left 100px top 100px"}} >
          <Header/> 
            <div className='container grid lg:grid-cols-2 h-[calc(100vh-60px)]'>
               <div className='hidden lg:block'></div>
