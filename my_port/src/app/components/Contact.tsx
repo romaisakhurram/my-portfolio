@@ -3,10 +3,10 @@ import { BsTelephone } from "react-icons/bs";
 
 export default function () {
     return (
-        <div id="Contact" className="pt-32 container" >
+        <div id="Contact" className="pt-32 container ml-12" >
             <div className="grid md:grid-cols-2 gap-10">
                 <div className="space-y-8">
-                    <h2 className="text-[30px]" data-aos="zoom-in-down">Get in Touch</h2>
+                    <h2 className="text-[30px] text-green-700" data-aos="zoom-in-down">Get in Touch</h2>
                     <p className="text-gray-600 text-[20px] pt-2" data-aos="zoom-in-down">
                         Drop me a line give me a call or send me a message by submitting the form.
                     </p>
@@ -21,21 +21,21 @@ export default function () {
                 <div className="space-y-8">
                     <div className="flex flex-col gap-1" data-aos="zoom-in-down">
                        <label htmlFor="name">Name</label>
-                       <input type="text" className="h-[40px] bg-transparent border border-accent"
+                       <input type="text" className="h-[40px] bg-transparent border border-green-700"
                        id="name"/>
                     </div>
                     <div className="flex flex-col gap-1" data-aos="zoom-in-down">
                        <label htmlFor="Email">Email</label>
-                       <input type="text" className="h-[40px] bg-transparent border border-accent"
+                       <input type="text" className="h-[40px] bg-transparent border border-green-700"
                        id="Email"/>
                     </div>
                     <div className="flex flex-col gap-1" data-aos="zoom-in-down">
                        <label htmlFor="Message">Message</label>
-                       <textarea className="bg-transparent border border-accent"
+                       <textarea className="bg-transparent border border-green-700"
                        id="Message" rows={6}></textarea>
                     </div>
                     <br />
-                    <button id="button"className="bg-accent p-2 px-6 " data-aos="zoom-in-down">Submit</button>
+                    <button id="button"className="bg-green-700 p-2 px-6 " data-aos="zoom-in-down">Submit</button>
 
                 </div>
 

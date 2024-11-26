@@ -1,8 +1,8 @@
 
 export default function About () {
     return (
-        <div id="About"className="container pt-40">
-            <h2 className="text-[70px] text-center" data-aos="zoom-in-down">About Me</h2> <br />
+        <div id="About"className="container pt-40 ml-12">
+            <h2 className="text-[70px] text-center text-green-800" data-aos="zoom-in-down">About Me</h2> <br />
             <p className="text-gray-500" data-aos="zoom-in-down">  
             
             - My name is Romaisa , I am a professional web developer. - your passion for coding, your journey into web development, and how you turned your passion into a career. - HTML , CSS , TYPESCRIPT , NEXT JS, frameworks and specialize in NEXT JS .

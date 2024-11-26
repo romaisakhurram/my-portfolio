@@ -69,12 +69,12 @@ const data : Idata[] = [
 export default function Projects ()  {      
     return (
         <div  id="Projects" className="flex flex-col items-center space-y-8 " data-aos="zoom-in-down">
-            <div className="text-[50px] items-center"><u>Projects</u></div>
+            <div className="text-[50px] items-center">Projects</div>
             
             <div className="grid gap-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:gap-10">
 
                {data.map ((Idata) => (
-                    <div  key={Idata.id} className='border border-accent w-[300px] sm:w-[350px] flex flex-col items-center space-y-4 p-4 rounded-lg shadow-lg'>
+                    <div  key={Idata.id} className='border border-green-800 w-[300px] sm:w-[350px] flex flex-col items-center space-y-4 p-4 rounded-lg shadow-lg'>
                        <Image className="w-[300px] sm:w-[350px] h-auto"
                          src={Idata.Image}
                          alt ={Idata.title}
