@@ -7,7 +7,7 @@ export default function Hero () {
               <div className={style.HeroGrandChild}></div>
                 <div className={style.MainHeading}>
                     <div>
-                        <p  data-aos="zoom-in-down">I'm</p>
+                        <p  data-aos="zoom-in-down">I am</p>
                         <p  data-aos="zoom-in-down">Romaisa</p>
                         <p  data-aos="zoom-in-down">Khurram</p>
                     </div>

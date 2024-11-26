@@ -7,7 +7,7 @@ export default function Skills (){
                 <div>
                     <h2 className={style.SkillHeading} data-aos="zoom-in-down">Technologies I work with</h2>
                     <p className={style.SkillDesc} data-aos="zoom-in-down">
-                        I have a solid foundation in web development , specilaizing  in HTML CSS & Typescript . My Experience to using framework like React and Next.Js to create dynamic and user friendly application. i'm also proficient in yechnologies to enhance my skills and contribute effectively to projects
+                        I have a solid foundation in web development , specilaizing  in HTML CSS & Typescript . My Experience to using framework like React and Next.Js to create dynamic and user friendly application. I am also proficient in yechnologies to enhance my skills and contribute effectively to projects
                     </p>
                 </div>
                 <div>
