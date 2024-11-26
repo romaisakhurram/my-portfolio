@@ -2,7 +2,7 @@ import { CiMail } from "react-icons/ci";
 import { BsTelephone } from "react-icons/bs";
 import style from "@/app/CSS/Contact.module.css"
 
-export default function () {
+export default function Contact () {
     return (
         <div id="Contact" className={style.ContactContainer}>
 
