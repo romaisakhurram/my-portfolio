@@ -1,5 +1,5 @@
 .ContactContainer{
-    padding: 128px;
+    padding: 60px;
     width: 100%
 }
 
@@ -15,7 +15,7 @@
 }
 
 .ContactHeading{
-    font-size: 40px;
+    font-size: 80px;
 }
 
 .ContactDesc{

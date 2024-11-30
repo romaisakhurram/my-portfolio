@@ -2,7 +2,7 @@ import style from "@/app/CSS/About.module.css"
 
 export default function About () {
     return (
-        <div id="About"className={style.AboutContainer}>
+        <div className={style.AboutContainer}>
             <div className={style.AboutChild}>
             
             <h2 className={style.AboutHeading} data-aos="zoom-in-down">About Me</h2> <br />

@@ -4,7 +4,7 @@ import style from "@/app/CSS/Contact.module.css"
 
 export default function Contact () {
     return (
-        <div id="Contact" className={style.ContactContainer}>
+        <div className={style.ContactContainer}>
 
             <div className={style.ContactChild}>
 

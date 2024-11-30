@@ -6,10 +6,10 @@ export default function Header () {
         <div className={style.HeaderChild}>
             <div className={style.HeaderLogo}>Romaisa</div>
                <ul className={style.HeaderList}>
-                 <li className="menulink"><a href="#hero">Home</a></li>
-                 <li className="menulink"><a href="#About">About </a></li>
-                 <li className="menulink"><a href="#Projects">Projects</a></li>
-                 <li className="menulink"><a href="#Contact">Contact</a></li>
+                 <li className="menulink"><a href="/">Home</a></li>
+                 <li className="menulink"><a href="/About">About </a></li>
+                 <li className="menulink"><a href="/Projects">Projects</a></li>
+                 <li className="menulink"><a href="/Contact">Contact</a></li>
                 </ul>
         </div>
 
