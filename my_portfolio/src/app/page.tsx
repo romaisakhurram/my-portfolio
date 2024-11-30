@@ -24,10 +24,10 @@ export default function Home() {
 
   return (
     <div>
-    <Hero/>
-    <AboutPage/>
-    <ContactPage/>
-    <ProjectPage/>
+      <Hero/>
+      <AboutPage/>
+      <ContactPage/>
+      <ProjectPage/>
     </div>
   );
 }
