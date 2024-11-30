@@ -20,6 +20,7 @@
 .MainHeading{
     font-size: 80px;
     margin-left: 150%;
+    font-weight: bold;
     justify-items: left;
     align-content: center;
 }
