@@ -14,6 +14,7 @@ type Idata ={
     desc : string
     Image : StaticImageData
     tags :string[]
+    Link : string
 }
 
 const data : Idata[] = [
@@ -23,6 +24,7 @@ const data : Idata[] = [
             desc : "A Typescript based dynamic  resume built with HTML and CSS allowing to showcase their skills dynamically" ,
             Image: resume,
             tags:["HTML" ,"CSS" , "Typescript" ],
+            Link :""
         },
 
         {
@@ -31,6 +33,7 @@ const data : Idata[] = [
             desc : "A  simple HTML , CSS & Typescript powered tool for converting currencies with real time rates. " ,
             Image: CurrencyConvertor,
             tags:["HTML" ,"CSS" , "Typescript" ],
+            Link :""
         },
 
         {
@@ -39,6 +42,7 @@ const data : Idata[] = [
             desc : "A Typescript based dynamic  resume built with HTML and CSS allowing to showcase their skills dynamically. " ,
             Image: dynamicResume,
             tags:["HTML" ,"CSS" , "Typescript" ],
+            Link :""
         },
 
         {
@@ -47,6 +51,7 @@ const data : Idata[] = [
             desc : "A simple website with HTML , CSS & Typescript for managing and organizing " ,
             Image: Website,
             tags:["HTML" ,"CSS" , "Typescript" ],
+            Link :""
         },
 
         {
@@ -55,6 +60,7 @@ const data : Idata[] = [
             desc : "A simple form with HTML & CSS for managing and organizing " ,
             Image: form,
             tags:["HTML" ,"CSS"],
+            Link :""
         },
 
         {
@@ -63,6 +69,7 @@ const data : Idata[] = [
             desc : "A simple website with Next.js, CSS & Tailwind for managing and organizing " ,
             Image: BlogWebsite,
             tags:["Next.js" , "CSS" , "Tailwind" ],
+            Link :""
         },
 
     ];
