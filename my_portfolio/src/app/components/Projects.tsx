@@ -6,6 +6,8 @@ import dynamicResume from "@/app/Images/dynamic resume.jpg"
 import Ecommerce from "@/app/Images/Ecommerce.png"
 import form from "@/app/Images/Form.jpg"
 import  BlogWebsite from "@/app/Images/BlogWebsite.png"
+import FurnitureWebsite from "@/app/Images/FurnitureWebsite.png"
+import ConstructionWebsite from "@/app/Images/ConstructionWebsite.png"
 import style from "@/app/CSS/Project.module.css"
 import Link from "next/link";
 
@@ -75,20 +77,20 @@ const data : Idata[] = [
 
         {
             id : 7,
-            title : "Blog Website",
+            title : "Furniture Website",
             desc : "A simple website with Next.js, CSS & Tailwind for managing and organizing " ,
-            Image: BlogWebsite,
+            Image: FurnitureWebsite,
             tags:["Next.js" ,  "TailwindCSS" ],
-            Link :"https://blog-website-ivory-mu.vercel.app/"
+            Link :"https://website-alpha-ecru-34.vercel.app/"
         },
 
         {
             id : 8,
-            title : "Blog Website",
-            desc : "A simple website with Next.js, CSS & Tailwind for managing and organizing " ,
-            Image: BlogWebsite,
-            tags:["Next.js" ,  "TailwindCSS" ],
-            Link :"https://blog-website-ivory-mu.vercel.app/"
+            title : "Construction Website",
+            desc : "A furniture website with Next.js & Tailwind CSS for managing and organizing the UI/UX design  " ,
+            Image: ConstructionWebsite,
+            tags:["Next.js" , "TailwindCSS" , "UI/UX" ],
+            Link :"https://websit-construction.vercel.app/"
         },
 
     ];
