@@ -4,7 +4,7 @@ export default function Header () {
     return (
        <div className={style.HeaderContainer}>
         <div className={style.HeaderChild}>
-            <div className={style.HeaderLogo}>Romaisa</div>
+            <div className={style.HeaderLogo}>PortFolio</div>
                <ul className={style.HeaderList}>
                  <li className="menulink"><a href="/">Home</a></li>
                  <li className="menulink"><a href="/About">About </a></li>

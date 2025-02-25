@@ -11,7 +11,7 @@ export default function Hero () {
                         <p  data-aos="zoom-in-down">I am</p>
                         <p  data-aos="zoom-in-down">Romaisa</p>
                         <p  data-aos="zoom-in-down">Khurram</p>
-                        <button data-aos="zoom-in-down" className={style.button}> <Link href="https://resume-delta-orpin.vercel.app/">Resume </Link> </button>
+                        <button data-aos="zoom-in-down" className={style.button}> <Link href="https://resume-opal-one.vercel.app/">Resume </Link> </button>
                     </div>
                 </div>
             </div>

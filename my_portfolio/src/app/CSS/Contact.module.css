@@ -70,3 +70,50 @@
     height: 30px;
     color: white;
 }
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .ContactHeading {
+        font-size: 60px;
+    }
+
+    .ContactDesc {
+        font-size: 18px;
+    }
+
+    .Form {
+        margin-left: 0;
+        padding: 15px;
+    }
+
+    .inputName, .inputEmail, .inputMessage {
+        width: 100%;
+    }
+
+    .ContactButton {
+        width: 30%;
+    }
+}
+
+@media (max-width: 480px) {
+    .ContactHeading {
+        font-size: 40px;
+    }
+
+    .ContactDesc {
+        font-size: 16px;
+    }
+
+    .Form {
+        margin-left: 0;
+        padding: 5px;
+    }
+
+    .inputName, .inputEmail, .inputMessage {
+        width: 100%;
+    }
+
+    .ContactButton {
+        width: 50%;
+    }
+}

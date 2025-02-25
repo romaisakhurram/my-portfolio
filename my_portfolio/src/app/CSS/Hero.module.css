@@ -18,7 +18,7 @@
 }
 
 .MainHeading{
-    font-size: 80px;
+    font-size: 60px;
     margin-left: 150%;
     font-weight: bold;
     justify-items: left;
@@ -30,8 +30,49 @@
     padding: 10px 20px;
     font-size: 20px;
     border-radius: 5px;
-    background-color: #f1f1f1;
-    color: black;
+    background-color: green;
+    color: white;
     border: none;
     cursor: pointer;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .HeroContainer {
+        width: 300px;
+        height: 300px;
+        margin: 4%;
+    }
+
+    .MainHeading {
+        font-size: 40px;
+        margin-left: 140%;
+    }
+
+    .button {
+        font-size: 18px;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .HeroContainer {
+        width: 60%;
+        height: 50%;
+        margin-top: 5%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .MainHeading {
+        display: flex;
+        flex-direction: row;
+        font-size: 25px;
+        margin-left: 150%;
+    }
+
+    .button {
+        font-size: 16px;
+        padding: 6px 12px;
+    }
 }

@@ -1,12 +1,13 @@
 import {StaticImageData} from "next/image";
 import  Image  from "next/image";
-import resume from "@/app/Images/resume.jpg"
+import calculator from "@/app/Images/calculator.png"
 import CurrencyConvertor from "@/app/Images/CurrencyConvertor.jpg"
 import dynamicResume from "@/app/Images/dynamic resume.jpg"
-import Website from "@/app/Images/Website.jpg"
+import Ecommerce from "@/app/Images/Ecommerce.png"
 import form from "@/app/Images/Form.jpg"
-import  BlogWebsite from "@/app/Images/BlogWebsite.jpg"
+import  BlogWebsite from "@/app/Images/BlogWebsite.png"
 import style from "@/app/CSS/Project.module.css"
+import Link from "next/link";
 
 type Idata ={
     id :number
@@ -20,11 +21,11 @@ type Idata ={
 const data : Idata[] = [
         {
             id : 1,
-            title : "Static Resume",
-            desc : "A Typescript based dynamic  resume built with HTML and CSS allowing to showcase their skills dynamically" ,
-            Image: resume,
-            tags:["HTML" ,"CSS" , "Typescript" ],
-            Link :""
+            title : "E-commerce Website",
+            desc : "A Mini E-commerce website with Next.Js & Tailwind CSS  for managing and organizing" ,
+            Image: Ecommerce,
+            tags:["Next.JS" ,"TailwindCSS" ],
+            Link :"https://mini-e-commerce-seven.vercel.app/"
         },
 
         {
@@ -33,7 +34,7 @@ const data : Idata[] = [
             desc : "A  simple HTML , CSS & Typescript powered tool for converting currencies with real time rates. " ,
             Image: CurrencyConvertor,
             tags:["HTML" ,"CSS" , "Typescript" ],
-            Link :""
+            Link :"https://currencyconvertor-weld.vercel.app/"
         },
 
         {
@@ -42,34 +43,52 @@ const data : Idata[] = [
             desc : "A Typescript based dynamic  resume built with HTML and CSS allowing to showcase their skills dynamically. " ,
             Image: dynamicResume,
             tags:["HTML" ,"CSS" , "Typescript" ],
-            Link :""
+            Link :"https://hackathon-project-4gyr.vercel.app/"
         },
 
         {
             id : 4,
-            title : "Restaurant Website",
-            desc : "A simple website with HTML , CSS & Typescript for managing and organizing " ,
-            Image: Website,
-            tags:["HTML" ,"CSS" , "Typescript" ],
-            Link :""
+            title : "Simple Calculator",
+            desc : "A Calculator built with HTML and CSS allowing to showcase their skills dynamically" ,
+            Image: calculator,
+            tags:["HTML" ,"CSS"],
+            Link :"https://simplecalculator-eta-eight.vercel.app/"
         },
 
         {
             id : 5,
-            title : "Restaurant Website",
+            title : "Form",
             desc : "A simple form with HTML & CSS for managing and organizing " ,
             Image: form,
             tags:["HTML" ,"CSS"],
-            Link :""
+            Link :"https://form-pi-sandy.vercel.app/"
         },
 
         {
             id : 6,
-            title : "Restaurant Website",
+            title : "Blog Website",
             desc : "A simple website with Next.js, CSS & Tailwind for managing and organizing " ,
             Image: BlogWebsite,
-            tags:["Next.js" , "CSS" , "Tailwind" ],
-            Link :""
+            tags:["Next.js" ,  "TailwindCSS" ],
+            Link :"https://blog-website-ivory-mu.vercel.app/"
+        },
+
+        {
+            id : 7,
+            title : "Blog Website",
+            desc : "A simple website with Next.js, CSS & Tailwind for managing and organizing " ,
+            Image: BlogWebsite,
+            tags:["Next.js" ,  "TailwindCSS" ],
+            Link :"https://blog-website-ivory-mu.vercel.app/"
+        },
+
+        {
+            id : 8,
+            title : "Blog Website",
+            desc : "A simple website with Next.js, CSS & Tailwind for managing and organizing " ,
+            Image: BlogWebsite,
+            tags:["Next.js" ,  "TailwindCSS" ],
+            Link :"https://blog-website-ivory-mu.vercel.app/"
         },
 
     ];
@@ -82,12 +101,14 @@ export default function Projects ()  {
             <div className={style.ProjectChild}>
                {data.map ((Idata) => (
                     <div  key={Idata.id} className={style.container}>
+                        <Link href={Idata.Link}>
                        <Image className={style.ProjectImage}
                          src={Idata.Image}
                          alt ={Idata.title}
                          width={350}
                          height={350}
                         />
+                        </Link>
 
                        <div className={style.title}>{Idata.title}</div>
                        <div>{Idata.desc}</div>

@@ -15,7 +15,7 @@ export default function Skills (){
                         <div className={style.SkillList}>
                             <h2 data-aos="zoom-in-down">Typescript</h2>
                             <h2 data-aos="zoom-in-down">Next.js</h2>
-                            <h2 data-aos="zoom-in-down">Reat.js</h2>
+                            <h2 data-aos="zoom-in-down">React.js</h2>
                         </div>
                         <div className={style.SkillList}>
                             <h2 data-aos="zoom-in-down">Tailwind</h2>

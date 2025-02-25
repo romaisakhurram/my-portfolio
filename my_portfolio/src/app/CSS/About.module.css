@@ -14,3 +14,31 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:rgb(122, 120, 120);
 }
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .AboutContainer {
+        padding: 30px;
+    }
+
+    .AboutHeading {
+        font-size: 50px;
+    }
+
+    .aboutDesc {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .AboutContainer {
+        padding: 20px;
+    }
+    .AboutHeading {
+        font-size: 40px;
+    }
+
+    .aboutDesc {
+        font-size: 16px;
+    }
+}

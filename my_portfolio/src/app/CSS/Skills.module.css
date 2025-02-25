@@ -34,3 +34,41 @@
   margin-top: 8px;
   margin-bottom: 8px;
 }
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .SkillContainer {
+      padding: 64px;
+  }
+
+  .SkillChild {
+      flex-direction: column;
+      gap: 30px;
+  }
+
+  .SkillHeading {
+      font-size: 30px;
+  }
+
+  .Skills {
+      font-size: 25px;
+      flex-direction: column;
+      gap: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .SkillContainer {
+      padding: 32px;
+  }
+
+  .SkillHeading {
+      font-size: 20px;
+  }
+
+  .Skills {
+      font-size: 20px;
+      flex-direction: column;
+      gap: 10px;
+  }
+}
