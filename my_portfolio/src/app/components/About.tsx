@@ -1,4 +1,5 @@
 import style from "@/app/CSS/About.module.css"
+import Link from "next/link"
 
 export default function About () {
     return (
@@ -18,6 +19,8 @@ export default function About () {
             </p>
 
             </div>
+
+            <button data-aos="zoom-in-down" className={style.button}> <Link href="https://resume-opal-one.vercel.app/">Resume </Link> </button>
 
         </div>
     )

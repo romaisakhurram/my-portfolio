@@ -15,6 +15,24 @@
     color:rgb(122, 120, 120);
 }
 
+.button{
+    margin-top: 2%;
+    margin-left: 2%;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: rgb(14, 231, 14);
+    color: white;
+    transition: 0.5s;
+}
+
 /* Responsive styles */
 @media (max-width: 768px) {
     .AboutContainer {
@@ -28,6 +46,11 @@
     .aboutDesc {
         font-size: 18px;
     }
+
+    .button {
+        font-size: 18px;
+        padding: 8px 16px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -40,5 +63,10 @@
 
     .aboutDesc {
         font-size: 16px;
+    }
+
+    .button {
+        font-size: 16px;
+        padding: 6px 12px;
     }
 }

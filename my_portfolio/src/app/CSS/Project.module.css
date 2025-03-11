@@ -31,6 +31,12 @@
     transition-duration: 0.5s;
 }
 
+.container:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    
+}
+
 .ProjectImage{
     width: 400px;
     height: 250px;
