@@ -8,6 +8,7 @@ import form from "@/app/Images/Form.jpg"
 import  BlogWebsite from "@/app/Images/BlogWebsite.png"
 import FurnitureWebsite from "@/app/Images/FurnitureWebsite.png"
 import ConstructionWebsite from "@/app/Images/ConstructionWebsite.png"
+import LoginImage from "@/app/Images/LoginImage.png"
 import style from "@/app/CSS/Project.module.css"
 import Link from "next/link";
 
@@ -91,6 +92,15 @@ const data : Idata[] = [
             Image: ConstructionWebsite,
             tags:["Next.js" , "TailwindCSS" , "UI/UX" ],
             Link :"https://websit-construction.vercel.app/"
+        },
+
+        {
+            id : 9,
+            title : "Login Page",
+            desc : "A Login Page with Next.js & Tailwind CSS for managing and organizing the UI/UX design  " ,
+            Image: LoginImage,
+            tags:["Next.js" , "TailwindCSS"],
+            Link :"https://login-page-phi-peach.vercel.app/"
         },
 
     ];
